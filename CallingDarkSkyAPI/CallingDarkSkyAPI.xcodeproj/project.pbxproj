@@ -15,6 +15,8 @@
 		1BE98A531DB52F1A0065A8D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE98A511DB52F1A0065A8D3 /* LaunchScreen.storyboard */; };
 		1BE98A5E1DB52F1A0065A8D3 /* CallingDarkSkyAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE98A5D1DB52F1A0065A8D3 /* CallingDarkSkyAPITests.swift */; };
 		1BE98A691DB52F1A0065A8D3 /* CallingDarkSkyAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE98A681DB52F1A0065A8D3 /* CallingDarkSkyAPIUITests.swift */; };
+		1BE98A771DB52F580065A8D3 /* DarkSkyAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE98A761DB52F580065A8D3 /* DarkSkyAPIClient.swift */; };
+		1BE98A791DB530BA0065A8D3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1BE98A781DB530BA0065A8D3 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1BE98A641DB52F1A0065A8D3 /* CallingDarkSkyAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallingDarkSkyAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BE98A681DB52F1A0065A8D3 /* CallingDarkSkyAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingDarkSkyAPIUITests.swift; sourceTree = "<group>"; };
 		1BE98A6A1DB52F1A0065A8D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BE98A761DB52F580065A8D3 /* DarkSkyAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DarkSkyAPIClient.swift; path = ../DarkSkyAPIClient.swift; sourceTree = "<group>"; };
+		1BE98A781DB530BA0065A8D3 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		1BE98A441DB52F1A0065A8D3 /* CallingDarkSkyAPI */ = {
 			isa = PBXGroup;
 			children = (
+				1BE98A781DB530BA0065A8D3 /* .gitignore */,
+				1BE98A761DB52F580065A8D3 /* DarkSkyAPIClient.swift */,
 				1BE98A451DB52F1A0065A8D3 /* AppDelegate.swift */,
 				1BE98A471DB52F1A0065A8D3 /* ViewController.swift */,
 				1BE98A491DB52F1A0065A8D3 /* Main.storyboard */,
@@ -232,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BE98A791DB530BA0065A8D3 /* .gitignore in Resources */,
 				1BE98A531DB52F1A0065A8D3 /* LaunchScreen.storyboard in Resources */,
 				1BE98A501DB52F1A0065A8D3 /* Assets.xcassets in Resources */,
 				1BE98A4B1DB52F1A0065A8D3 /* Main.storyboard in Resources */,
@@ -262,6 +269,7 @@
 				1BE98A481DB52F1A0065A8D3 /* ViewController.swift in Sources */,
 				1BE98A4E1DB52F1A0065A8D3 /* CallingDarkSkyAPI.xcdatamodeld in Sources */,
 				1BE98A461DB52F1A0065A8D3 /* AppDelegate.swift in Sources */,
+				1BE98A771DB52F580065A8D3 /* DarkSkyAPIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +494,7 @@
 				1BE98A6F1DB52F1A0065A8D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BE98A701DB52F1A0065A8D3 /* Build configuration list for PBXNativeTarget "CallingDarkSkyAPITests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +503,7 @@
 				1BE98A721DB52F1A0065A8D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BE98A731DB52F1A0065A8D3 /* Build configuration list for PBXNativeTarget "CallingDarkSkyAPIUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +512,7 @@
 				1BE98A751DB52F1A0065A8D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
